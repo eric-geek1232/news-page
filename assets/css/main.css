@@ -37,7 +37,6 @@ p{
 }
 
 figure{
-    float: left;
     width: auto;
     height: auto;
     margin: 0%;
@@ -141,7 +140,6 @@ img{
     border-bottom: 2px solid gainsboro;
     border-right: 2px solid gainsboro;
     box-shadow: 2px 2px 5px gray;
-    float: left;
     margin-bottom: 1em;
 }
 
@@ -160,5 +158,9 @@ img{
 
     .news-container{
         width: 50%;
+    }
+    
+    figure{
+        float: left;
     }
 }
